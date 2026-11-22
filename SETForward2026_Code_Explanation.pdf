@@ -1,0 +1,1218 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] /Count 8 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2304 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(SET Forward 2026 - Code Guide) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 712 Td
+(A plain-language walkthrough of the event website: its HTML structure, CSS design, images,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 697 Td
+(floor map, and room-selection behavior.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 675 Td
+(What the website does) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 655 Td
+(The page introduces a proposed three-day School of Engineering and Technology event at NU) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 640 Td
+(Fairview. Visitors can browse the event idea, activities, sample schedule, room map,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 625 Td
+(participation steps, and contact details.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 603 Td
+(Project files) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 583 Td
+(- index.html - the page structure, content, links, image map, and small JavaScript) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 568 Td
+(  interaction.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 553 Td
+(- styles.css - colors, type, layout, mobile rules, and the schedule highlight.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 538 Td
+(- images/set-forward-logo.jpg - the event logo used in the header and hero.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 523 Td
+(- images/codability-tech-group.png - the group photo used in the feature section.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 508 Td
+(- images/fourth-floor-map.svg - the room and hallway diagram used by the image map.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 493 Td
+(The HTML refers to images with relative paths such as images/set-forward-logo.jpg. Keep the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 478 Td
+(images folder beside index.html when opening the site.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 456 Td
+(Opening the site) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 436 Td
+(Open index.html in a browser. The browser reads the HTML, loads styles.css, then loads the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 421 Td
+(three image files. The Google Fonts import needs an internet connection; system fonts are) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 406 Td
+(listed as fallbacks.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 1 of 7) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2295 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(1. HTML document and navigation) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 709 Td
+(Document setup) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 689 Td
+(The doctype tells the browser to use modern HTML. The html element uses lang="en". The head) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 674 Td
+(contains the character encoding, mobile viewport, page description, title, and link to) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 659 Td
+(styles.css.) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 640 Td
+(<link rel="stylesheet" href="styles.css">) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 623 Td
+(The body contains the visible page. Its id="top" gives the back-to-top link a destination.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 601 Td
+(Header and internal links) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 581 Td
+(The header contains the event logo and a nav element. Each navigation link points to a) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 566 Td
+(section id, for example href="#schedule" goes to id="schedule".) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 547 Td
+(<a href="#schedule">Schedule</a>) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 530 Td
+(The main element wraps the event content. Each major section has a heading and a unique id:) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 515 Td
+(about, activities, highlights, schedule, guide, join, and contact. These IDs make the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 500 Td
+(navigation and room links work without separate pages.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 478 Td
+(Semantic building blocks) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 458 Td
+(Headings describe the page hierarchy. Paragraphs hold explanatory copy. Sections group a) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 443 Td
+(topic. Articles group individual highlights. Div elements support layout and grouping.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 428 Td
+(Spans label small pieces of inline information.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 409 Td
+(Comments such as "Three-day sample schedule" are notes for people reading the source;) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 394 Td
+(browsers do not show them as page content.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 2 of 7) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2561 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(2. Event content and HTML elements) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 709 Td
+(About and activities) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 689 Td
+(The About section explains the event in three paragraphs and uses hr to separate the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 674 Td
+(overview from the summary numbers. The activities section has three featured activity cards) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 659 Td
+(and a six-item unordered list.) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 640 Td
+(<ul> ... <li>Student Project Showcase</li> ... </ul>) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 620 Td
+(Featured items) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 600 Td
+(The Spotlight section contains three proposed entries: an alumni panel, student maker) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 585 Td
+(teams, and a robotics challenge. Each entry has a heading, description, and a span label) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 570 Td
+(for its category.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 548 Td
+(Schedule table) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 528 Td
+(The table has column headers for date, time, activity, and venue. Each of the three dates) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 513 Td
+(has two sample activities. Header cells use scope="col" to identify their columns.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 494 Td
+(Room numbers are shown in the schedule. The page labels its schedule and assignments as) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 479 Td
+(proposed sample details, so readers do not mistake fictional event details for confirmed) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 464 Td
+(plans.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 442 Td
+(Participation and contact) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 422 Td
+(An ordered list presents participation steps. The external MDN link opens a learning) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 407 Td
+(resource. A pre element preserves the spacing of a sample participant announcement. The) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 392 Td
+(mailto link starts an email, and the footer link returns to #top.) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 373 Td
+(<a href="mailto:setforward@example.edu">...) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 356 Td
+(The guide section also uses a description list: dl groups terms, dt names each term, and dd) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 341 Td
+(explains it.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 3 of 7) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 2154 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(3. Floor map and room links) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 709 Td
+(The floor-plan image) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 689 Td
+(The floor map is an SVG image stored in images/fourth-floor-map.svg. It shows a rectangular) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 674 Td
+(outer set of rooms, a smooth hallway loop, and a grid of inner rooms. Four selected room) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 659 Td
+(squares are highlighted: 402L, 415, 418L, and 425.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 640 Td
+(The arrangement follows the student-provided description. The map says it is not to scale) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 625 Td
+(because exact architectural positions were not provided.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 603 Td
+(Image-map regions) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 583 Td
+(The img element has usemap="#floor-map". That connects the picture to map name="floor-map".) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 568 Td
+(Each area element defines a rectangle using pixel coordinates from the SVG viewBox.) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 549 Td
+(<area shape="rect" coords="..." href="#schedule" data-room="402l">) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 532 Td
+(Each area has alt text, a schedule link, and a data-room value. Transparent anchor links) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 517 Td
+(sit over the same room squares as a responsive click target. Their positions use) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 502 Td
+(percentages so they scale with the image.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 480 Td
+(Room-to-schedule connection) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 460 Td
+(Schedule rows carry matching data-room values. For example, room 402l appears on both its) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 445 Td
+(opening/showcase row and its closing-celebration row. The room index can therefore identify) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 430 Td
+(every session assigned to that room.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 4 of 7) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 2517 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(4. CSS design and responsive layout) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 709 Td
+(Shared design values) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 689 Td
+(At the top of styles.css, :root defines custom properties for the cream, green, pink, text,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 674 Td
+(line, and font colors. var\(--green\) reuses the same color throughout the file. This makes) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 659 Td
+(the palette easier to change in one place.) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 640 Td
+(--green: #214d38;) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 620 Td
+(Layout and visual style) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 600 Td
+(The global box-sizing rule keeps element sizing predictable. The body sets the background,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 585 Td
+(text color, font, and line spacing. Header and hero rules create the navigation bar,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 570 Td
+(striped backdrop, logo card, and headline.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 551 Td
+(Section rules control width and spacing. Grid and flexbox rules arrange cards, statistics,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 536 Td
+(schedules, and contact details. The dark green activities and participation panels contrast) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 521 Td
+(with the cream page and pink accents.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 499 Td
+(Map and schedule styles) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 479 Td
+(The room-panel and floor-map rules frame the floor plan. Transparent .floor-hotspot links) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 464 Td
+(sit over room squares. Hover and keyboard focus outlines show which region is interactive.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 445 Td
+(The .room-highlight class changes the background of a selected room row. The date and time) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 430 Td
+(cells use a stronger pink shade so they stand out.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 408 Td
+(Small screens) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 388 Td
+(The @media rule at max-width: 760px changes the layout for narrow screens: the navigation) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 373 Td
+(wraps, columns stack, cards become single-column, and the schedule table can scroll) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 358 Td
+(horizontally.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 5 of 7) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 2203 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(5. JavaScript room behavior) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 709 Td
+(The two pieces of room data) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 689 Td
+(Every clickable room link has a data-room value. Every related schedule row has the same) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 674 Td
+(value. The script reads these values instead of hard-coding a separate list of activities.) Tj
+ET
+BT
+/F1 9 Tf
+0.36 0.25 0.30 rg
+52 655 Td
+(const roomRows = Array.from\(schedule.querySelectorAll\("tbody tr[data-room]"\)\);) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 635 Td
+(When someone clicks a room) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 615 Td
+(- 1. The document click listener finds the clicked link or image-map area with data-) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 600 Td
+(  room.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 585 Td
+(- 2. preventDefault stops the browser from following the link immediately.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 570 Td
+(- 3. The clicked room value becomes selectedRoom.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 555 Td
+(- 4. Existing row highlights are cleared.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 540 Td
+(- 5. scrollIntoView smoothly moves the page to the proposed schedule.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 522 Td
+(Highlight only what is visible) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 502 Td
+(IntersectionObserver watches the schedule rows. When a row enters the screen, the script) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 487 Td
+(checks whether its data-room matches selectedRoom. Matching visible rows get the room-) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 472 Td
+(highlight CSS class. When a row leaves the screen, the class is removed.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 453 Td
+(If the selected room has multiple sessions, each matching row is highlighted when it is on) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 438 Td
+(screen. Scrolling to another date reveals that room's other session and highlights it while) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 423 Td
+(visible.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 6 of 7) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 2151 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(6. How to explain or update the project) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 709 Td
+(Quick explanation) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 689 Td
+(HTML gives the page its sections and content. CSS controls how those sections look and) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 674 Td
+(rearrange on smaller screens. The SVG supplies the floor-plan drawing. The map and area) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 659 Td
+(elements make room regions clickable. JavaScript matches a selected room to schedule rows,) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 644 Td
+(scrolls to the schedule, and highlights matching rows only while visible.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 622 Td
+(Safe content edits) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 602 Td
+(- To change a proposed activity, edit its text in the activity list and schedule.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 587 Td
+(- To change a room assignment, update the schedule cell and that row's data-room value.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 572 Td
+(- To move a highlighted room, edit both its rectangle in the SVG and its matching image-) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 557 Td
+(  map coordinates and CSS hotspot position.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 542 Td
+(- To change the palette, update the custom properties near the top of styles.css.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 524 Td
+(References) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 504 Td
+(Assignment brief: WEB PROGRAMMING ASSIGNMENT 2.docx. NU Fairview: nu.edu.ph/nu-fairview/.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 489 Td
+(HTML learning resource: developer.mozilla.org/en-US/docs/Learn. Fonts: Google Fonts, DM) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 474 Td
+(Sans and Playfair Display.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 455 Td
+(Remember: schedule details and room placements are sample content and should be confirmed) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 440 Td
+(before being presented as official.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 7 of 7) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 3783 >>
+stream
+q
+0.12 0.29 0.21 rg
+0 738 612 54 re f
+Q
+BT
+/F2 18 Tf
+1 1 1 rg
+48 757 Td
+(Lab demonstration preparation) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 712 Td
+(The assignment says students may be asked to demonstrate the website in the next laboratory) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 697 Td
+(session and explain selected HTML elements, attributes, and navigation features. Use this) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 682 Td
+(page to rehearse a short walkthrough.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 660 Td
+(A simple demonstration order) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 640 Td
+(- 1. Open index.html and point out the title, logo, hero message, and navigation bar.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 621 Td
+(- 2. Click About, Activities, Schedule, Event guide, and Contact. Explain that each) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 606 Td
+(  link href points to a matching section id.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 587 Td
+(- 3. In the floor map, click a highlighted room. Show that the page scrolls to the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 572 Td
+(  proposed program and highlights the matching room rows while they are visible.) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 553 Td
+(- 4. Point out that schedule details and room positions are samples, and the floor plan) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 538 Td
+(  is marked not to scale.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 516 Td
+(HTML elements to explain) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 496 Td
+(header and nav organize the top bar; main and section group the page; h1, h2, and h3 show) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 481 Td
+(heading levels; p holds text; ul and ol create unordered and ordered lists; dl, dt, and dd) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 466 Td
+(define terms; table, tr, th, and td organize the schedule; img displays assets; map and) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 451 Td
+(area create clickable image regions; pre preserves announcement spacing; hr separates) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 436 Td
+(content; div and span group or label content.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 414 Td
+(Attributes to point out) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 394 Td
+(href links to a page or section. id names a section for internal navigation. src locates an) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 379 Td
+(image. alt describes an image for screen readers. usemap connects the floor-plan image to) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 364 Td
+(its map. coords define each clickable room rectangle. scope identifies a table-header) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 349 Td
+(column. data-room connects a room link to schedule rows.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 327 Td
+(How the room interaction works) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 307 Td
+(The JavaScript click listener reads data-room, prevents the default link action, stores the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 292 Td
+(selected room, and smoothly scrolls to the schedule. IntersectionObserver watches schedule) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 277 Td
+(rows. Matching rows receive the room-highlight class while they are on screen; CSS controls) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 262 Td
+(the pink highlight.) Tj
+ET
+BT
+/F2 12 Tf
+0.12 0.29 0.21 rg
+52 240 Td
+(Be ready to explain) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 220 Td
+(Practice explaining each feature in your own words and be ready to point to it in the) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 205 Td
+(browser and in the source. The code guide pages before this one describe each file and) Tj
+ET
+BT
+/F1 10 Tf
+0.14 0.20 0.17 rg
+52 190 Td
+(section in more detail.) Tj
+ET
+BT
+/F1 8 Tf
+0.40 0.43 0.40 rg
+52 28 Td
+(SET Forward 2026 - Code Guide   |   Page 8 of 8) Tj
+ET
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000168 00000 n 
+0000000238 00000 n 
+0000000313 00000 n 
+0000000449 00000 n 
+0000002805 00000 n 
+0000002941 00000 n 
+0000005288 00000 n 
+0000005425 00000 n 
+0000008039 00000 n 
+0000008177 00000 n 
+0000010384 00000 n 
+0000010522 00000 n 
+0000013092 00000 n 
+0000013230 00000 n 
+0000015486 00000 n 
+0000015624 00000 n 
+0000017828 00000 n 
+0000017966 00000 n 
+trailer
+<< /Size 21 /Root 1 0 R >>
+startxref
+21802
+%%EOF
